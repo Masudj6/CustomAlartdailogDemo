@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v7.widget.AppCompatTextView
+            android:padding="10dp"
+            android:text="Email"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.AppCompatTextView>
+        <android.support.v7.widget.AppCompatEditText
+            android:padding="10dp"
+            android:background="#FFFFFF"
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v7.widget.AppCompatTextView
+            android:padding="10dp"
+            android:text="Password"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.AppCompatTextView>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:inputType="number"
+            android:padding="10dp" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatButton
+            android:textAllCaps="false"
+            android:id="@+id/login"
+            android:layout_marginTop="15dp"
+            android:background="#FFFFFF"
+            android:textColor="#303F9F"
+            android:text="Login"
+            android:onClick="View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
